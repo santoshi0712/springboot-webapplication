@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: santuacrtrail.azurecr.io/santoshi0712/dockerrepo:#{Build.BuildId}#
+        image: santuacrtrail.azurecr.io/santoshi0712/springboot-webapplication:#{Build.BuildId}#
         ports:
         - containerPort: 8080
 # service type loadbalancer       
